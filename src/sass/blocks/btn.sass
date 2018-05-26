@@ -1,0 +1,60 @@
+.btn
+  display: flex
+  justify-content: center
+  padding: 0 15px
+  height: 35px
+  line-height: 35px
+  text-transform: uppercase
+  border-radius: 0
+  background-color: #a4aeff
+  border: 1px solid #a4aeff
+  cursor: pointer
+  color: #fff
+  box-sizing: border-box
+  +bold
+
+.btn-buy
+  display: inline-block
+  position: relative
+  padding: 15px 10px 10px
+  min-width: 150px
+  height: 54px
+  background-color: $purple
+  border: 1px solid $purple
+  color: #fff
+  font-size: 18px
+  border-radius: 25px
+  transition: all .3s ease-in-out
+  cursor: pointer
+  +bold
+
+  &:after
+    position: absolute
+    content: ""
+    top: 0
+    left: 0
+    width: 0
+    height: 0
+    border-color: transparent
+    transition: all .3s ease-in-out
+
+  &:hover
+    background-color: #fff
+    border-color: $purple
+    color: $purple
+
+.btn-prev,
+.btn-next
+  display: block
+  width: 18px
+  height: 40px
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  cursor: pointer
+
+.btn-prev
+  left: -35px
+
+.btn-next
+  right: -35px

@@ -1,0 +1,247 @@
+//= partials/head.html
+<body>
+  <header class="header is-product">
+    <div class="container">
+      <div class="header__wrap">
+        <div class="header__left">
+          <div class="logo">
+            <a href="index.html" class="logo__link">
+              <img class="logo__img" src="img/logo.png" alt="logo_bhakti_way">
+              <span class="logo__name">BhaktiWay</span>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__el">
+                <a class="nav__link" href="#">
+                  <span>На главную</span>
+                </a>
+              </li>
+              <li class="nav__el">
+                <a class="nav__link" href="#">
+                  <span class="icon icon-phone"></span>
+                  <span>(050)823-03-24</span>
+                </a>
+              </li>
+              <li class="nav__el">
+                <a class="nav__link" href="#">
+                  <span class="icon icon-viber"></span>
+                  <span>(093)877-33-41</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__right">
+          <div class="main-search">
+            <div class="search">
+              <form action="#" class="search__form">
+                <input  class="search__input"
+                        type="text"
+                        placeholder="Поиск">
+                <button class="search__btn" type="submit">
+                  <span class="icon icon-search"></span>
+                </button>
+              </form>
+            </div><!-- end search -->
+            <div class="cart">
+              <a class="cart__link" href="#">
+                <span class="icon icon-cart"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- end container -->
+  </header>
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <div class="section__wrap">
+          <div class="section__left">
+            <aside class="aside">
+              <span class="aside__title">Категории товаров</span>
+              <div class="filter">
+                <span class="filter__title">Аюрведические препараты</span>
+                <ul class="filter__list">
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">Для сердечно-сосудистой системы</a>
+                  </li>
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">Для нервной системы</a>
+                  </li>
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">Для дыхательной системы</a>
+                  </li>
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">Для иммунной системы</a>
+                  </li>
+                </ul>
+              </div><!-- end filter -->
+              <div class="filter">
+                <span class="filter__title">Ароматерапия</span>
+                <ul class="filter__list">
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">сердечно-сосудистой системы</a>
+                  </li>
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">нервной системы</a>
+                  </li>
+                </ul>
+              </div><!-- end filter -->
+              <div class="filter">
+                <span class="filter__title">Травы</span>
+                <ul class="filter__list">
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">сердечно-сосудистой системы</a>
+                  </li>
+                  <li class="filter__el">
+                    <a class="filter__link" href="#">нервной системы</a>
+                  </li>
+                </ul>
+              </div><!-- end filter -->
+              <div class="filter">
+                <span class="filter__title">Питание</span>
+              </div><!-- end filter -->
+              <div class="filter">
+                <span class="filter__title">Книги</span>
+              </div><!-- end filter -->
+            </aside>
+          </div>
+          <div class="section__right">
+            <div class="products">
+              <div class="products__top">
+                <div class="products__left">
+                  <img class="products__img" src="img/triphala.png" alt="product_img">
+                </div>
+                <div class="products__right">
+                  <div class="product">
+                    <span class="product__title">Трифала Хималая / 60 таб.</span>
+                    <div class="product__price">
+                      <span class="price">160 грн</span>
+                      <span class="old-price">230 грн</span>
+                      <span class="percent">-20%</span>
+                    </div>
+                    <div class="product__action">
+                      <form method="post" class="form form__cart">
+                        <!--<div class="product__quantity">-->
+                          <!--<input type="button" value="-" class="minus">-->
+                          <!--<input class="input is-quantity" type="number" value="1" step="1" min="1" max="9" pattern="[0-9]*">-->
+                          <!--<input type="plus" value="+" class="plus">-->
+                        <!--</div>-->
+                        <div class="quantity">
+                          <input type="number" min="1" max="9" step="1" value="1">
+                        </div>
+                        <div class="product__btn">
+                          <button type="submit" class="btn-buy">В корзину</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="product__list">
+                      <dl>
+                        <dt>Артикул:</dt>
+                        <dd>001</dd>
+                      </dl>
+                      <dl>
+                        <dt>Наличие:</dt>
+                        <dd>В наличии</dd>
+                      </dl>
+                      <dl>
+                        <dt>Фирма производитель:</dt>
+                        <dd>Maharishi Ayurveda Products Pvt.</dd>
+                      </dl>
+                      <dl>
+                        <dt>Страна производитель:</dt>
+                        <dd>Индия</dd>
+                      </dl>
+                      <dl>
+                        <dt>Упаковка:</dt>
+                        <dd>60 таблеток</dd>
+                      </dl>
+                      <dl>
+                        <dt>Срок годности:</dt>
+                        <dd>до 09.2019 года</dd>
+                      </dl>
+                    </div><!-- end product__list -->
+                  </div><!-- end product -->
+                </div>
+              </div>
+              <div class="products__bottom">
+                <div class="tabs">
+                  <ul class="tabs__list">
+                    <li class="tabs__el is-active">Описание</li>
+                    <li class="tabs__el">Показания</li>
+                    <li class="tabs__el">Способ применения</li>
+                    <li class="tabs__el">Состав</li>
+                  </ul>
+                  <ul class="tabs__content-list">
+                    <li class="tabs__content is-visible">
+                      <div class="info">
+                        <p class="info__text">
+                          Restone (Рестон) помогает пациентам адаптироваться к стрессовым условиям и предотвратить эмоциональные
+                          изменения, такие как беспокойство, депрессия и раздражительность. Препарат быстро восстанавливает тонус тела и
+                          восстанавливает психические функции и равновесие, полезен женщинам всех возрастов с момента полового
+                          созревания, до и после менопаузы.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="tabs__content">
+                      <div class="info">
+                        <ul class="list">
+                          <li class="list__el">
+                            - Общеукрепляющий тоник для женщин
+                          </li>
+                          <li class="list__el">
+                            - Для облегчения предменструального синдрома
+                          </li>
+                          <li class="list__el">
+                            - Вспомогательное средство при лечении заболеваний мочеполовой системы
+                          </li>
+                          <li class="list__el">
+                            - Профилактическая терапия для лечения заболеваний мочеполовой системы
+                          </li>
+                          <li class="list__el">
+                            - Как восстановительный тоник во время пубертатного периода
+                          </li>
+                          <li class="list__el">
+                            - Синдром менопаузы
+                          </li>
+                          <li class="list__el">
+                            - Климактерический синдром
+                          </li>
+                        </ul>
+                      </div><!-- end info -->
+                    </li>
+                    <li class="tabs__content">
+                      <div class="info">
+                        <span>Способ применения:</span>
+                        <p class="info__descr">По 1-2 таблетки в день после еды или по указанию врача.</p>
+                      </div>
+                    </li>
+                    <li class="tabs__content">
+                      <div class="info">
+                        <ul class="list">
+                          <li class="list__el">Saraca asoca (Ashok) 100mg</li>
+                          <li class="list__el">Symplocos racemosa (Lodhra) 50mg</li>
+                          <li class="list__el">Asparagus racemosus (Shatavari) 25mg</li>
+                          <li class="list__el">Mangifera indica (Aam) 25mg</li>
+                          <li class="list__el">Ficus religiosa (Peepal ) 25mg</li>
+                          <li class="list__el">Mimosa pudica (Lajwanti) 25mg</li>
+                          <li class="list__el">Boerhaavia diffusa (Punarnava) 25mg</li>
+                          <li class="list__el">Caesalpinia sappan (Patang) 25mg</li>
+                          <li class="list__el">Messua ferrea (Nagkesar) 12.5mg</li>
+                          <li class="list__el">Valeriana wallichi (Sugandh Bala) 12.5mg</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div><!-- end tabs -->
+              </div><!-- end products__bottom -->
+            </div><!-- end products -->
+          </div><!-- end section__right -->
+        </div><!-- end section__wrap -->
+      </div><!-- end container -->
+    </section>
+  </main>
+  //= partials/footer.html
+</body>
